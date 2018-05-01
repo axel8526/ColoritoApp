@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+        <item name="android:colorBackground">@color/negro_claro</item>
+        <item name="android:alertDialogTheme">@style/ca</item>
+        <item name="android:textColorPrimary">@color/blanco</item>
+        <item name="android:textColorSecondary">@color/blanco</item>
+
+
+    </style>
+    <style name="ca" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/negro_claro</item>
+    </style>
+    <style name="puntaje_estilo">
+
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:background">@drawable/puntaje_cada_uno_f</item>
+        <item name="android:layout_marginBottom">7dp</item>
+    </style>
+    <style name="botonesFin">
+
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+    </style>
+
+
+</resources>

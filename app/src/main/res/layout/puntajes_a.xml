@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_puntajes">
+
+    <TextView
+        android:id="@+id/salir_x"
+        style="@style/puntaje_estilo"
+        android:layout_width="35dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/x_salir_fondo"
+
+        android:text="X"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736">
+
+        <TextView
+            android:id="@+id/m1m"
+            style="@style/puntaje_estilo"
+            android:text="0"
+
+            />
+
+        <TextView
+            android:id="@+id/m2m"
+            style="@style/puntaje_estilo"
+            android:text="0"
+
+            />
+
+        <TextView
+            android:id="@+id/m3m"
+            style="@style/puntaje_estilo"
+            android:text="0"
+
+            />
+
+        <TextView
+            android:id="@+id/m4m"
+            style="@style/puntaje_estilo"
+            android:text="0"
+
+            />
+
+        <TextView
+            android:id="@+id/m5m"
+            style="@style/puntaje_estilo"
+            android:text="0"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

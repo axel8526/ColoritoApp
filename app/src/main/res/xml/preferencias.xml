@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Modo de Juego">
+        <EditTextPreference
+            android:title="Tiempo"
+            android:summary="Digite el tiempo para la partida"
+            android:key="tiempoPartida"
+            android:inputType="number"
+            android:maxLength="2"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            />
+        <ListPreference
+            android:title="Intentos"
+            android:summary="Escoge el numero de intentos para cada partida"
+            android:key="intentos"
+            android:entries="@array/mostrar_intentos"
+            android:entryValues="@array/valores"
+            android:icon="@android:drawable/stat_notify_error"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Palabras">
+
+        <ListPreference
+            android:title="Duracion Palabra"
+            android:summary="Escoga la duracion por cada palabra mostrada"
+            android:key="duracionPalabra"
+            android:entries="@array/mostra_tiempoPalabra"
+            android:entryValues="@array/valores"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Iniciar Juego">
+        <CheckBoxPreference
+            android:title="Habilitar Tiempo"
+            android:summary="Al habilitar, la partida inicia con el tiempo. Sin intentos"
+            android:key="timeOn"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            />
+        <Preference android:title="Iniciar Partida"
+            android:summary="Se inicia la partida con la configuración personalizada"
+            android:icon="@android:drawable/ic_menu_send"
+            >
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.example.usuario.coloritoapp"
+                android:targetClass="com.example.usuario.coloritoapp.Partida"
+
+                />
+        </Preference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

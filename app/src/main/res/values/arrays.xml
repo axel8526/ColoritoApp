@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mostrar_intentos">
+
+        <item>2 Intentos</item>
+        <item>3 Intentos</item>
+        <item>5 Intentos</item>
+        <item>7 Intentos</item>
+    </array>
+    <array name="valores">
+
+        <item>primero</item>
+        <item>segundo</item>
+        <item>tercero</item>
+        <item>cuarto</item>
+    </array>
+    <array name="mostra_tiempoPalabra">
+
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+    </array>
+
+</resources>
